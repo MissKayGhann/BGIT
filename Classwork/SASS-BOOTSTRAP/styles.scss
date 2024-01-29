@@ -1,0 +1,19 @@
+$primary-color: rgb(109, 104, 179);
+$secondary-color: rgb(199, 104, 194);
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+
+body {
+  background-color: $primary-color;
+  font-size: $font-size-medium;
+}
+
+h1 {
+  color: $secondary-color;
+  font-size: $font-size-large;
+}
+
+p {
+  font-size: $font-size-small;
+}

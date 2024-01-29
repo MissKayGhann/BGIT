@@ -1,0 +1,304 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  font-style: normal;
+  letter-spacing: -1.28px;
+  line-height: 120%;
+  text-align: center;
+  color: black;
+  animation: slideInLeft 2s ease-in-out 0.5s 1;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}
+
+.recipes {
+  color: #000;
+  font-family: "Newsreader";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -1.28px;
+  margin-left: 3%;
+  text-align: start;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: inline-flex;
+  padding: 19px 32px;
+  background-color: #426b1f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 130%;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-bottom: 10%;
+}
+
+.button:hover {
+  transform: translateY(-15px);
+  background-color: black;
+  color: #426b1f;
+  font-style: italic;
+}
+
+button {
+  display: inline-flex;
+  padding: 8px 16px 8px 24px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 112px;
+  border-radius: 8px;
+  background-color: #426b1f;
+  margin-bottom: 1%;
+  color: white;
+}
+
+.peanut-soup {
+  height: 100%;
+  width: 40%;
+  margin-left: 96px;
+  margin-right: 30px;
+}
+
+.bofrot {
+  width: 60%;
+  height: 40%;
+  margin-right: 0;
+  margin-top: 215px;
+}
+
+.homepage-food {
+  display: flex;
+}
+
+.welcome {
+  font-family: newsreader;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -1.28px;
+}
+
+.brief-description {
+  display: flex;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+
+.title {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-left: 10%;
+  margin-top: 3%;
+  color: #426b1f;
+}
+
+.text {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 70%;
+  text-align: justify;
+  margin-right: 3%;
+}
+
+#recipes-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 30%;
+}
+
+.recipe-box {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  border: 2px solid #e6e6e6;
+  background: #fafaf5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-img {
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.recipe-img:hover {
+  filter: brightness(80%);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.recipe-name {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.description {
+  color: #6d6d6d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-header .navbar-brand {
+  text-decoration: none;
+  color: #426b1f;
+  font-size: 32px;
+  font-family: "Newsreader";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 500;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+}
+
+.navbar-header .navbar-brand:hover {
+  color: #000;
+  font-size: 36px;
+  font-style: italic;
+  transition: ease-in-out;
+  margin: 10px;
+}
+
+.navbar-menu-a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: "inter";
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.navbar-menu a:hover {
+  color: #426b1f;
+  font-size: 18px;
+  font-style: italic;
+  transition: ease-in-out;
+  margin: 5px;
+}
+
+.about-me {
+  display: flex;
+}
+
+.first-recipe {
+  display: flex;
+}
+
+.recipe-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+
+.second-recipe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-recipe img {
+  width: 50%;
+}
+
+.kareen {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  color: #426b1f;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+button {
+  display: inline-flex;
+  padding: 8px 16px 8px 24px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 112px;
+  border-radius: 8px;
+  background-color: #426b1f;
+  margin-bottom: 1%;
+  color: white;
+}
+
+/* @keyframes slideInLeft {
+    from {
+      transform: translateX(-300px);
+    }
+    to {
+      transform: translateX(300px);
+    }
+  } 
+  
+ */

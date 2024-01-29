@@ -1,0 +1,44 @@
+Question 1
+What does HTML stand for?
+-Hyper Text Markup Language
+
+Question 2
+Explain the difference between HTML elements and HTML attributes. Provide examples of each
+-The element consists of a starting tag and a closing tag (e.g., <p>Hello World</p>) where as the attributes add additional information withing the start tag of the element (e.g., <a href="www.google.com">Hello World</a>)
+
+Question 3 
+What is the purpose of the 'DOCTYPE' declaration in an HTML document? What happens if you omit it?
+- this is an instruction to the browser about the HTML version being used and ensures that the document displays properly. If this has been omitted, the browser may display with a mix of old and new standards.
+
+Question 4
+Describe the difference between inline elements and block-level elements in HTML. Give examples of each
+- inline elements do not start on a new line. (e.g., <span>). Block level starts on a new level (e.g.,<div></div>)
+
+Question 5 
+Explain the significance of the following HTML tags and their usage:
+<head> - this contains meta information about the document, this is the link to the CSS files and the title of the document.
+<div> - this a block level container used to group other elements
+<a> - this is a hyperlink that allows you to navigate between pages
+<img> - this is used to attach images into the document
+<ul>, <ol>, <li> - ul creates an unordered list using bullet points, ol creates an ordered list (e.g., 1, 2, 3) and li are the items within either ul and/or ol.
+
+Question 6
+What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+- these are elements that describe their meaning to the browser and the developer. They are important because for accessibility because they help end users interpret the content on the page. For SEO, they allow search engines to understand the structure of the web page.
+Examples of semantic elements are <main>, <section>, <aside>, <footer>.
+
+Question 7
+What is the purpose of the HTML form elements (<form>) and its associated form controls? Provide examples of common form controls
+- the form element is a section for the end user to input data and submit it. Examples of the controls are, <input>, <select> and <button>
+
+Question 8
+How can you add comments in HTML? Why are comments useful in web development?
+- you can add comments in a html document by using the cmd key and forward slash key on a mac book.
+
+Question 9
+What is the HTML5 standard and what are some of the new features introduced in HTML5?
+-HTML5 is the latest version of HTML. The new features that are in this version are <footer>, <article>, <section>. As well as some new form controls which are, <audio> and <video>.
+
+Question 10
+Explain the concept of 'responsive web design' and how HTML contributes to creating responsive websites.
+- this is an approach whereby a webpage is designed to automatically adjust and have an organised look on all devices. This is done by HTML having fluid grids, flexible images and media queries that allow the layout to adapt to any view.

@@ -1,0 +1,27 @@
+main div {
+  border: 2px dashed rgb(57, 157, 110);
+  margin: 10px;
+}
+
+footer {
+  border: 2px dashed rgb(57, 157, 110);
+  margin: 20px;
+}
+
+header {
+  border: 2px dashed rgb(57, 157, 110);
+  margin: 20px;
+}
+
+header:hover {
+  background-color: darkgreen;
+  transition: all 0.4s ease-in-out;
+}
+
+header h1:hover {
+  font-size: 45px;
+  transition: all 0.4s ease-in-out;
+  color: rgb(206, 248, 234);
+  font-style: italic;
+  font-weight: 100;
+}

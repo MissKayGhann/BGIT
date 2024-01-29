@@ -1,0 +1,15 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+/* styling for the paragraph */
+p {
+  color: orangered;
+  font-size: x-large;
+}
