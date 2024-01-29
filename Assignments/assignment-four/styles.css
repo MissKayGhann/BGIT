@@ -1,0 +1,33 @@
+.completed {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: Inter;
+}
+
+.container {
+  border: 1px solid rgb(201, 162, 243);
+  margin: 3px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  border: 1px solid blueviolet;
+  color: black;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+input {
+  border-radius: none;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
